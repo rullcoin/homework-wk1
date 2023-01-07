@@ -8,8 +8,6 @@ const ConcreteCalculator = () => {
     const [gravel, setGravel] = useState(0)
     const [result, setResult] = useState(0)
 
-
-
   const getCement = (e) => {
     setCement(e.target.value)
   };
